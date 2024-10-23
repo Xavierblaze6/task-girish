@@ -1,0 +1,61 @@
+.task-column {
+  flex: 1 1 30%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Add border for feature request section */
+.feature-request {
+  border: 1px solid #ccc; /* Thin border around feature request */
+  padding: 10px;         /* Padding inside the box */
+  border-radius: 4px;    /* Rounded corners for the box */
+  margin-bottom: 10px;   /* Space after the box */
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.column-status-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px; /* Space between image and text */
+}
+
+h2 {
+  font-size: 18px;
+  margin-right: 5px; /* Space between section name and task count */
+}
+
+p {
+  font-size: 14px;
+  color: #999;
+  margin-left: 5px; /* Space between section name and task count */
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between + and three dots */
+}
+
+.add-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.three-dots-icon {
+  width: 20px;
+  height: 20px;
+}
